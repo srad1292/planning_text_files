@@ -1,0 +1,12 @@
+-----------Release Version------------
+
+Purpose: View for a release version of a project.
+
+1. Version
+2. Link to github repos
+3. Start/End Date
+4. Planned features
+5. Breakdown of completed features/bugs
+6. Breakdown of tickets in each state
+7. List of tickets: ticket title, state, assignee 
+8. Development Hours

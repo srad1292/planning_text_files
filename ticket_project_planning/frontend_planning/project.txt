@@ -1,0 +1,31 @@
+-----------Project Page------------
+
+Purpose: Overview view for a project.
+
+1. Current Version
+2. Link to github repos
+3. Start/End Date
+4. Description
+5. Development hours
+6. Breakdown of tickets in each state
+7. List of release versions
+    A. Version link to it
+    B. Start Date and End Date
+    C. Number of tickets
+    D. Development hours
+
+8. Recent Activity - by who 
+    A. Ticket Created
+    B. Ticket State Change
+    C. Ticket Editted 
+    D. User added/removed from project
+
+9. List of sub projects
+    A. Link
+    B. Start Date and End Date
+    C. Number of tickets
+    D. Development Hours
+
+10. Documentation: links to documentation (ex like api catalog or something)
+
+11. A way to set regex for suggested branch names and suggested commit messages for tickets in this project

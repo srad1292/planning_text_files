@@ -1,0 +1,8 @@
+-----------Sub Project------------
+
+1. Name
+2. Start Date and End Date
+3. Description
+4. Development hours
+5. Breakdown of tickets in each state
+6. List of tickets: ticket title, state, assignee

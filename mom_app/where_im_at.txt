@@ -1,0 +1,9 @@
+Where you're at
+-a basic chronometer setup
+
+
+What you want to play with next
+- How does it look at certain times like 24 hrs, 48 hrs, 10000 hours, etc
+- If it looks weird, how top show days passed
+- Make sure you can do other ui stuff and it still runs
+- making a service so it keeps running

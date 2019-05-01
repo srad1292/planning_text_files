@@ -1,0 +1,13 @@
+----------Login/Signup-----------
+
+---Login---
+    1. Form for username/email and password
+    2. Link to signup
+    -> Go to homepage
+
+---Signup---
+    1. First Name
+    2. Last Name
+    3. Password
+    4. Email
+    -> Go to profile settings

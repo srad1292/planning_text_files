@@ -1,0 +1,10 @@
+ID AUTOINCREMENT PRIMARY NOT NULL
+TYPE VARCHAR(15) NOT NULL UNIQUE
+
+---types---
+1. Bug
+2. Feature
+3. Refactor
+4. Test 
+5. Automation
+6. Design

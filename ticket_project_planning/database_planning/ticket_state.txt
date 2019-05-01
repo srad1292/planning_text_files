@@ -1,0 +1,13 @@
+ID AUTOINCREMENT PRIMARY NOT NULL
+STATE VARCHAR(20) NOT NULL UNIQUE
+
+
+---States---
+Backlog
+In Development
+Code Review
+Testing
+On Hold
+Ready For Release
+Cancelled
+Released (maybe not though) 

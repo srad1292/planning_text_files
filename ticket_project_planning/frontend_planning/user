@@ -1,0 +1,50 @@
+----------------USER-------------------
+
+Purpose: Permissions for actions, activity tracking, who did what
+
+1. Permissions based on user level
+    A. Non logged in user -> read only
+    B. User not part of project -> comments only 
+    C. Developer on project, comments, actions on tickets, actions on projects,  create tickets
+    D. lead, all above + create/edit/delete users, add users to projects, remove users from projects,
+
+
+2. Activity tracking: user and title as links
+    A. Move ticket from state to state:  <User> Moved <title> from <old state> to <new state>
+    B. Comment on ticket: <User> left a comment on <title>
+    C. Log work: <User> set the time worked for <title> to <x units>
+    D. Create a ticket: <User> created <title>
+    E. Edit ticket fields i.e title, release version, etc: 
+        For all do - user changed from old to new for ticket
+            1. Title
+            2. Type ie Bug, Feature, etc
+            3. Release Version
+            4. Start Date
+            5. Complete or Cancel Date
+            6. Assignee
+            7. Hours worked
+        For all do - user added/removed x from ticket  
+            8. Comments
+            9. Github links
+            10. Attachments
+            11. Relevent Tickets
+            12. Linked Tickets ie blocks or blocked
+2B: Maybe make the scrollable toggle between activity tracking and recently viewed
+    A: Ticket Title and ID that links to ticket
+
+3. Data Visualization
+    1. Period Of Time
+        A. Hours Worked
+        B. Tickets Touched, Tickets moved to each part of process
+        C. Do B for each type of ticket
+    2. Version
+        A. Hours Worked
+        B. Tickets Touched, Tickets moved to each part of process
+        C. Do B for each type of ticket
+
+4. User Settings
+    A. Name
+    B. Email
+    C. Theme
+    D. Icon/Avatar?
+    E. Watch Ticket On Creation

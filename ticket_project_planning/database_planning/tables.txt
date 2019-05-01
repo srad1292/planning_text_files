@@ -1,0 +1,32 @@
+development_tickets
+parent_tickets
+linked_tickets
+ticket_types *
+ticket_statuses *
+ticket_states *
+
+projects
+subprojects
+tasks
+release_versions
+
+github links
+
+comments
+features
+
+watching
+
+checklist
+checklist_item
+
+user
+
+activity
+recently_viewed
+
+
+
+
+------------------------------
+*maybe unncessary 

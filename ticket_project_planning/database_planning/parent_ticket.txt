@@ -1,0 +1,4 @@
+PARENT_ID INTEGER 
+CHILD_ID INTEGER
+
+PRIMARY KEY -> Combo of parent and child 

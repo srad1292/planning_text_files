@@ -1,0 +1,12 @@
+ID AUTOINCREMENT PRIMARY NOT NULL
+STATUS VARCHAR(35) NOT NULL UNIQUE
+
+
+---Status---
+1. Code Review Needed
+2. Code Review Working
+3. Code Review Completed
+4. QA Needed
+5. QA Working 
+6. Merge Conflict
+7. Ready To Merge

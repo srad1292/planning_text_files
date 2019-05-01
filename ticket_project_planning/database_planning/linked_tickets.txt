@@ -1,0 +1,8 @@
+THIS_TICKET_ID INTEGER
+OTHER_TICKET_ID INTEGER
+RELATIONSHIP STRING VARCHAR(20) NOT NULL
+
+
+
+
+Relationship: blocked, blocked by, related

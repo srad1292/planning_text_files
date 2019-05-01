@@ -1,0 +1,11 @@
+---------main navigation--------
+
+1. Home
+2. Projects
+3. Tickets
+4. Create
+    A. Project 
+    B. Sub Project
+    C. Release
+    D. Ticket
+5. User Profile

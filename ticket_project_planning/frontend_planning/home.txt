@@ -1,0 +1,7 @@
+--------Home---------------
+
+1. Welcome Back
+2. Scrolling recently viewed
+3. Footer
+
+(maybe no home page and have that recently viewed as an option for the scroll on the user page)

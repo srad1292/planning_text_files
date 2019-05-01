@@ -1,0 +1,20 @@
+-------Ticket Viewer--------
+
+1. Be able to filter tickets by(include and exclude): 
+    A. Assignee
+    B. Release Version
+    C. Current State
+    D. Project
+    E. Sub Project
+    F. Current Status
+
+2. Views
+    A. Simple list
+        1. Title
+        2. Ticket Number
+        3. Project
+        4. Sub Project
+        5. State 
+        6. Status 
+        7. Assignee 
+        8. Sprint 

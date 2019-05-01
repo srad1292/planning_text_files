@@ -1,0 +1,17 @@
+-----------Task---------------
+
+Abstract:  Basically if there's a big feature or refactor that
+            can be broken down into smaller subtickets, this would
+            be the parent to all of those tickets and a convenient
+            way to view all tickets that are under its umbrella
+
+1. Title
+2. Description
+3. Ticket List
+    A. Simple list of tickets
+        1. Title
+        2. Ticket Number
+        3. State 
+        4. Status 
+        5. Assignee 
+        6. Sprint 

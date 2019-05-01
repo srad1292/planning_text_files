@@ -1,0 +1,64 @@
+------------Work Ticket--------------
+
+Purpose: View for tickets that will be assignments as the project is being built.
+
+1. Title
+2. Type ie Bug, Feature, etc
+3. Release Version
+4. Start Date
+5. Complete or Cancel Date
+6. Assignee
+7. Hours worked
+8. Comments
+9. Github links
+10. Attachments
+11. Relevent Tickets
+12. Linked Tickets ie blocks or blocked
+13. Current State -> states to move into
+14. Project 
+15. Subproject 
+16. Ticket Number
+17. Option to get notifications when ticket changes (in general or maybe specific actions?)
+18. Option to get a reminder to look at a ticket at a certain time? (might be hard to do)
+19. Checklist
+20. Description
+21. Current State
+22. Status
+23. Created By
+24. Created Date
+25. Code Review Completed Date
+26. Testing Completed Date
+27. Suggested Branch Name
+28. Suggested Commit Message
+
+
+---States---
+Backlog
+In Development
+Code Review
+Testing
+On Hold
+Completed
+Cancelled
+Released (maybe not though) 
+
+
+---Status---
+1. Code Review Needed
+2. Code Review Working
+3. Code Review Completed
+4. Testing Needed
+5. Testing Working 
+6. Testing Completed
+7. Merge Conflict
+8. Ready To Merge
+
+
+
+---Types---
+1. Bug
+2. Feature
+3. Refactor
+4. Test 
+5. Automation
+6. Design
