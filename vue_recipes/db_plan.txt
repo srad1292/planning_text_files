@@ -1,0 +1,122 @@
+- Recipe - 
+id - serial
+Name - text
+Type of cuisine - integer -> reference cuisine table
+Category - integer -> reference category table 
+Meal - integer -> reference meal table
+Occasion - integer -> reference occasion table 
+Main Ingredient - integer -> reference food-ingredient table
+cookine method (oven, crock pot, grill etc)  [if more then one..multiple cooking times?]
+created on - timestamp -> default to now()
+updated on - timestamp -> null on start, trigger to set to now() when row changes
+Preparation time - 
+Cooking time
+Number of servings - integer
+serving type - text
+Instructions for reheating
+Instructions for storing leftovers?
+
+- cuisine -
+id - serial
+recipe - integer -> references recipe
+cuisine - integer -> references cuisine_information
+
+- cuisine_information -
+id - serial
+name - text
+
+
+- category -
+id - serial
+recipe - integer -> references recipe
+category - integer -> references category_information
+
+- category_information -
+id - serial
+name - text
+
+
+- meal -
+id - serial
+recipe - integer -> references recipe
+meal - integer -> references meal_information
+
+- meal_information -
+id - serial
+name - text
+
+
+- occasion -
+id - serial
+recipe - integer -> references recipe
+occasion - integer -> references occasion_information
+
+- occasion_information -
+id - serial
+name - text
+
+- tags -
+recipe - integer -> reference recipe
+tag - integer -> references tags_information
+
+
+- tags_information -
+id - serial
+name - text
+
+
+- images -
+id - serial
+recipe - integer -> references recipe
+url - text 
+
+
+- Preparation (Just a list of steps) -
+id - serial
+recipe id - integer -> reference recipe
+order - integer 
+step - text
+
+
+- Ingredients -
+id - serial
+Group - text
+amount - maybe integer maybe text
+unit - maybe integer maybe text
+ingredient - integer -> references ingredient_information
+preparation - text
+
+- ingredient_information - 
+id - serial
+name - text
+
+
+
+
+
+
+
+
+
+
+
+bacon
+cheddar
+green onion
+sour cream (more than 4 oz)
+potatoes 
+butter
+whole milk (half gallon)
+
+2 cup flour
+1 cup butter
+1/2 cup sour cream
+
+2 eggs
+vanilla
+.5 cup flour
+sugar
+brown sugar
+3/4 cup butter
+1 cup chocolate 
+

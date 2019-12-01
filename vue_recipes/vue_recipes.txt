@@ -18,7 +18,7 @@ Occasion
 Main Ingredient
 Other Tags
 cookine method (oven, crock pot, grill etc)  [if more then one..multiple cooking times?]
-
+created on -> default to now()
 
 Images (maybe a slideshow with one as the main picture for thumbnail)
 Preparation time
@@ -30,9 +30,10 @@ Instructions for reheating
 Instructions for storing leftovers?
 
 
-- Preparation -
-Just a list of steps
-
+- Preparation (Just a list of steps) -
+id
+order
+step
 
 
 - Ingredients -
