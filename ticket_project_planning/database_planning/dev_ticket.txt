@@ -3,19 +3,20 @@ title VARCHAR(100) NOT NULL
 Type INTEGER FOREIGN KEY (type) REFERENCES ticket_types(type)
 project INTEGER FOREIGN KEY (project) REFERENCES projects(project)
 subproject INTEGER FOREIGN KEY (subproject) REFERENCES subprojects(subproject)
-Description VARCHAR(4000) NOT NULL
+XDescription VARCHAR(4000) NOT NULL
 state (maybe just a varchar and have the frontend set it from a list of states) INTEGER FOREIGN KEY (state) REFERENCES ticket_states(state)
 Status (maybe just a varchar and have the frontend set it from a list of status) INTEGER FOREIGN KEY (staus) REFERENCES ticket_status(status)
 Assignee VARCHAR(10) FOREIGN KEY (Assignee) REFERENCES users(id)
 created_by VARCHAR(10) FOREIGN KEY (created_by) REFERENCES users(id)
-release_version FOREIGN KEY
+release_version varchar
 date_started
 date_completed
 date_closed
 date_created
-date_code_review_complete
+date_reviewed
 date_tested_completed
 hours_worked
+
 
 
 
@@ -43,7 +44,7 @@ hours_worked
 \17. Option to get notifications when ticket changes (in general or maybe specific actions?)
 \18. Option to get a reminder to look at a ticket at a certain time? (might be hard to do)
 \19. Checklist
-20. Description
+X20. Description
 21. Status
 22. Created By
 23. Created Date

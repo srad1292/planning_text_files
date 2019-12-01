@@ -1,14 +1,14 @@
-development_tickets
-parent_tickets
-linked_tickets
+- development_tickets
+parent_tickets *
+- linked_tickets
 ticket_types *
 ticket_statuses *
 ticket_states *
 
-projects
-subprojects
+- project
+- subproject
 tasks
-release_versions
+release_versions*
 
 github links
 
@@ -20,7 +20,7 @@ watching
 checklist
 checklist_item
 
-user
+- user
 
 activity
 recently_viewed

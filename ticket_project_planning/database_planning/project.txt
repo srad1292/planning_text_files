@@ -1,0 +1,9 @@
+ID INTEGER AUTOINCREMENT PRIMARY KEY
+title VARCHAR(100) NOT NULL
+Version 
+Description VARCHAR(4000) NOT NULL
+state (maybe just a varchar and have the frontend set it from a list of states) INTEGER FOREIGN KEY (state) REFERENCES ticket_states(state)
+Status (maybe just a varchar and have the frontend set it from a list of status) INTEGER FOREIGN KEY (staus) REFERENCES ticket_status(status)
+Assignee VARCHAR(10) FOREIGN KEY (Assignee) REFERENCES users(id)
+created_by VARCHAR(10) FOREIGN KEY (created_by) REFERENCES users(id)
+release_version FOREIGN KEY

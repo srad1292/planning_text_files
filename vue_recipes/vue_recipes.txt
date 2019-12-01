@@ -1,0 +1,78 @@
+- Functionality -
+View a recipe
+Create a recipe
+Edit a recipe
+Remove a recipe?
+Search recipes
+Print a recipe (formatted from ingredients and preparation)
+View All recipes
+Sort list of recipes
+Maybe someway to show related recipes?
+
+- Recipe - 
+Name
+Type of cuisine
+Category (ie entree, side, snack, dessert, drink)
+Meal (ie breakfast, lunch, dinner)
+Occasion
+Main Ingredient
+Other Tags
+cookine method (oven, crock pot, grill etc)  [if more then one..multiple cooking times?]
+
+
+Images (maybe a slideshow with one as the main picture for thumbnail)
+Preparation time
+Cooking time
+Number of servings/Makes X of Something
+Ingredients
+Preparation
+Instructions for reheating
+Instructions for storing leftovers?
+
+
+- Preparation -
+Just a list of steps
+
+
+
+- Ingredients -
+Group (ie for the brownies for the frosting for the ganache)
+amount
+unit
+ingredient (id)
+preparation
+
+- food-ingredient - 
+id
+name
+
+
+
+
+
+
+
+
+
+
+
+bacon
+cheddar
+green onion
+sour cream (more than 4 oz)
+potatoes 
+butter
+whole milk (half gallon)
+
+2 cup flour
+1 cup butter
+1/2 cup sour cream
+
+2 eggs
+vanilla
+.5 cup flour
+sugar
+brown sugar
+3/4 cup butter
+1 cup chocolate 
+

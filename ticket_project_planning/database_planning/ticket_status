@@ -10,3 +10,6 @@ STATUS VARCHAR(35) NOT NULL UNIQUE
 5. QA Working 
 6. Merge Conflict
 7. Ready To Merge
+
+cr Needed
+ready for release

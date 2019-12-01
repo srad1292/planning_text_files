@@ -4,10 +4,13 @@ STATE VARCHAR(20) NOT NULL UNIQUE
 
 ---States---
 Backlog
-In Development
+Development
+CR Needed
 Code Review
-Testing
+QA Needed
+In QA
 On Hold
 Ready For Release
 Cancelled
-Released (maybe not though) 
+Closed
+Released
